@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mdmaster"
+    }
+  },
+  "defaultProject": "mdmaster",
+  "cli": {
+    "analytics": false
+  }
 }
