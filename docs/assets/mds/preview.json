@@ -11,5 +11,14 @@
                 "name": "Установка Angular Cli"
                  }
                  ]
+    },
+    {
+        "tag": "C#",
+        "posts": [
+                {
+                "id": "csharp-dapper-base-repository",
+                "name": "Микро ORM Dapper"
+                }
+                 ]
     }
 ]
