@@ -1,5 +1,34 @@
 <app-top-menu></app-top-menu>
-<div class="container pt-3">
-    <h1 style="margin: 0;">Статьи</h1>
-    <a href="">Как передать и потом спарсить параметры в маршруте</a>
+
+<div class="container pt-4" [ngClass]="{'hide' : !previewList, 'show' : previewList}">
+    <div *ngIf="previewList">
+        <div *ngFor="let p of previewList" class="mb-3">
+            <span class="badge active">{{ p.tag }}</span>
+            <div class="row">
+                <div class="col-lg">
+                    <ul>
+                        <li *ngFor="let u of p.posts">
+                            <a [routerLink]="['/post', u.id]">{{ u.name }}</a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<style>
+
+    .hide
+    {
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .show
+    {
+        opacity: 1;
+        transition: 1s;
+    }
+
+</style>

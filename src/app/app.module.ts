@@ -7,16 +7,24 @@ import { PostsListComponent } from './posts-list/posts-list.component';
 import { PostDetailsComponent } from './post-details/post-details.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 
+import { MarkdownModule } from 'ngx-markdown';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     PostsListComponent,
     PostDetailsComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient }),
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

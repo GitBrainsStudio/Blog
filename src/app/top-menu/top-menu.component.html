@@ -1,4 +1,29 @@
 <div class="container pt-1">
-    <h4 style="margin: 0;">Блог разработчика</h4>
-    <a href="">Телеграм</a>
+    <span [routerLink]="['/']" class="logo">Ещё один блог разработчика</span>
+    <nav>
+        <ul>
+            <li>
+                <a [routerLink]="['/']">Телеграм</a>
+            </li>
+        </ul>
+    </nav>
+  
 </div>
+
+<style>
+    .logo
+    {
+        font-size: 16px;
+        font-weight: 700;
+        transition: .3s;
+        outline: 0;
+    }
+
+    .logo:hover
+    {
+        cursor: pointer;
+        transform: .3s;
+        color: var(--red);
+    }
+    
+</style>
