@@ -12,7 +12,7 @@ const routes: Routes = [
     path: 'post/:md', component: PostDetailsComponent
   },
   {
-    path: '**', component: PostsListComponent
+    path: '**', redirectTo: ''
   }
 ];
 

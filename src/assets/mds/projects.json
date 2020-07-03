@@ -1,0 +1,97 @@
+[
+    {
+        "id" : "https://github.com/GitBrainsStudio/Statistic-Calculation",
+        "name" : "Калькулятор статистики",
+        "description" : "Приложение для подсчета количества символов в файлах различных форматов (doc, pdf, xls). Соблюдён SOLID паттерн, MVVM шаблон проектирования.",
+        "stack": [
+            {
+                "name" : "WPF"
+            },
+            {
+                "name" : "MVVM"
+            },
+            {
+                "name" : "C#"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/Angular-Material-Blog",
+        "name" : "Блог-лента на материал",
+        "description" : "SPA, в котором все посты находятся на главной странице. Используется материал дизайн.",
+        "stack": [
+            {
+                "name" : "Angular 9"
+            },
+            {
+                "name" : "Angular Material"
+            },
+            {
+                "name" : "NET.CORE"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/Yandex-Map-Parser",
+        "name" : "Парсер данных с Яндекс Карт",
+        "description" : "Приложение, позволяющее получать данные с Яндекс карт по заданному массиву координат.",
+        "stack": [
+            {
+                "name" : "Selenium"
+            },
+            {
+                "name" : "C#"
+            },
+            {
+                "name" : "Яндекс Карты"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/Yandex-Geocoder-Api-Worker",
+        "name" : "Приложение для работы с Яндекс Геокодером",
+        "description" : "Приложение, позволяющее получать данных с Яндекс карт по заданному массиву координат.",
+        "stack": [
+            {
+                "name" : "Selenium"
+            },
+            {
+                "name" : "C#"
+            },
+            {
+                "name" : "Яндекс Геокодер"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/Checker-Prices-RBT",
+        "name" : "RBT Helper",
+        "description" : "Приложение для оптимизации и ускорения рабочего процесса. Приложение писал, когда работал инженером в RBT.",
+        "stack": [
+            {
+                "name" : "WPF"
+            },
+            {
+                "name" : "MVVM"
+            },
+            {
+                "name" : "C#"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/Blog",
+        "name" : "GitBrains Blog",
+        "description" : "Сайт на котором Вы сейчас находитесь. Это мой маленький зверёк, который как ракета набирает 98 попугаев на аудите от гугла :)",
+        "stack": [
+            {
+                "name" : "Angular 9"
+            },
+            {
+                "name" : "MARKDOWN"
+            }
+        ]
+    }
+
+
+]

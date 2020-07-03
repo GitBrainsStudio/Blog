@@ -12,13 +12,20 @@ export class PostsListComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPreviews();
+    this.getProjects();
   }
 
   getPreviews()
   {
-    this.http.get('./assets/mds/preview.json').subscribe((data:any[]) => { this.previewList = data; console.log(data) });
+    this.http.get('./assets/mds/posts.json').subscribe((data:any[]) => { this.posts = data;  });
   }
 
-  previewList:any[];
+  getProjects()
+  {
+    this.http.get('./assets/mds/projects.json').subscribe((data:any[]) => { this.projects = data; });
+  }
+
+  posts:any[];
+  projects:any[];
 
 }
