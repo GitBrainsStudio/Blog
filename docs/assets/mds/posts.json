@@ -7,6 +7,12 @@
                             "id": "angular-parse-and-send-params",
                             "name": "Как передать и потом спарсить параметры в маршруте"
                         },
+
+                        {
+                            "id": "angular-http-interceptor",
+                            "name": "Используем Http Interceptor для перехвата запросов"
+                        },
+
                         {
                             "id": "anulgar-cli-install",
                             "name": "Установка Angular Cli"

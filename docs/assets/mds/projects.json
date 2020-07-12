@@ -1,5 +1,21 @@
 [
     {
+        "id" : "https://github.com/GitBrainsStudio/ConsoleCalculator",
+        "name" : "Калькулятор математических выражений",
+        "description" : "Приложение для вычисления результата математического выражение вида: (-1+2)*130-(34/2+172,4)*0,01",
+        "stack": [
+            {
+                "name" : "Pattern Strategy"
+            },
+            {
+                "name" : "Solid"
+            },
+            {
+                "name" : "C#"
+            }
+        ]
+    },
+    {
         "id" : "https://github.com/GitBrainsStudio/Statistic-Calculation",
         "name" : "Калькулятор статистики",
         "description" : "Приложение для подсчета количества символов в файлах различных форматов (doc, pdf, xls). Соблюдён SOLID паттерн, MVVM шаблон проектирования.",
@@ -82,7 +98,7 @@
     {
         "id" : "https://github.com/GitBrainsStudio/Blog",
         "name" : "GitBrains Blog",
-        "description" : "Сайт на котором Вы сейчас находитесь. Это мой маленький зверёк, который как ракета набирает 98 попугаев на аудите от гугла :)",
+        "description" : "Сайт на котором Вы сейчас находитесь. Старался собрать ракету на рендеринге маркдаун файлов. Вроде получилось.",
         "stack": [
             {
                 "name" : "Angular 9"
