@@ -25,6 +25,10 @@
                         {
                             "id": "csharp-dapper-base-repository",
                             "name": "Микро ORM Dapper"
+                        },
+                        {
+                            "id" : "csharp-logger-class",
+                            "name" : "Логирование в файл"
                         }
                      ]
         }
