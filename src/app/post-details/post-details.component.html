@@ -3,3 +3,5 @@
 <div class="container pt-5" [ngClass]="{'hide' : !isLoad, 'show' : isLoad}">
     <markdown  [src]="pathToFile" (load)="onLoad()" (error)="onError()"> </markdown> 
 </div>
+
+<app-footer></app-footer>

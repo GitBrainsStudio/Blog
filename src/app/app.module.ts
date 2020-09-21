@@ -24,7 +24,6 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     HttpClientModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
