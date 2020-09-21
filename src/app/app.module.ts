@@ -10,6 +10,9 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './Pages/home/home.component';
+import { PostComponent } from './Pages/post/post.component';
+import { PostReaderComponent } from './Shared/post-reader/post-reader.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { FooterComponent } from './footer/footer.component';
     PostsListComponent,
     PostDetailsComponent,
     TopMenuComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    PostComponent,
+    PostReaderComponent
   ],
   imports: [
     BrowserModule,

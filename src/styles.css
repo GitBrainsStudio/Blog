@@ -8,6 +8,7 @@
     --prism-background: #272822;
     --red: #a03000;
     --blue: #0064a8;
+    --dark-blue : #4c6491;
     --white: #fff;
     --black: #000;
     --dark: #1e1e1e;
@@ -106,24 +107,7 @@ h1,h2,h3,h4,h5,h6
     background-color: #6c757d;
 }
 
-.green
-{
-     background-color: #71914c;
-}
-
-
-.hide
-{
-    opacity: 0;
-    transition: 1s;
-}
-
-.show
-{
-    opacity: 1;
-    transition: 1s;
-}
-
+/* 
 pre 
 {
     overflow-x: auto;
@@ -131,4 +115,4 @@ pre
     color: var(--white);
     border-radius: 5px;
     padding: 10px;
-}
+} */
