@@ -32,6 +32,8 @@
     --header-main-font-size: 2.3rem;
     --header-main-line-height: 2.5rem;
     --large-header-font-size: 3rem;
+    --top-menu-height: 100px;
+    --footer-height: 100px;
 }
 
 body {
@@ -56,7 +58,6 @@ a {
     transition: .3s;
     color: var(--blue);
     border-bottom-color: var(--blue-transparent);
-
 }
 
 a:hover
@@ -107,12 +108,7 @@ h1,h2,h3,h4,h5,h6
     background-color: #6c757d;
 }
 
-/* 
-pre 
+main
 {
-    overflow-x: auto;
-    background-color: var(--prism-background);
-    color: var(--white);
-    border-radius: 5px;
-    padding: 10px;
-} */
+    min-height: calc(100vh - var(--top-menu-height) - var(--footer-height));
+}

@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostsListComponent } from './posts-list/posts-list.component';
 import { PostDetailsComponent } from './post-details/post-details.component';
+import { HomeComponent } from './Pages/home/home.component';
 
 
 const routes: Routes = [
   {
-    path: '', component: PostsListComponent
+    path: '', component: HomeComponent
   },
   {
     path: 'post/:md', component: PostDetailsComponent
