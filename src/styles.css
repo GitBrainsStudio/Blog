@@ -108,7 +108,7 @@ h1,h2,h3,h4,h5,h6
     background-color: #6c757d;
 }
 
-main
+.wrap
 {
-    min-height: calc(100vh - var(--top-menu-height) - var(--footer-height));
+    min-height: calc(100vh - var(--footer-height));
 }
