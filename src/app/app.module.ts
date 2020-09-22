@@ -12,6 +12,9 @@ import { PostComponent } from './Pages/post/post.component';
 import { PostReaderComponent } from './Shared/post-reader/post-reader.component';
 import { FooterComponent } from './Layout/footer/footer.component';
 import { TopMenuComponent } from './Layout/top-menu/top-menu.component';
+import { PostPreviewListComponent } from './Shared/post-preview-list/post-preview-list.component';
+import { ProjectListComponent } from './Shared/project-list/project-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,12 +23,15 @@ import { TopMenuComponent } from './Layout/top-menu/top-menu.component';
     FooterComponent,
     HomeComponent,
     PostComponent,
-    PostReaderComponent
+    PostReaderComponent,
+    PostPreviewListComponent,
+    ProjectListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
   ],
   providers: [],

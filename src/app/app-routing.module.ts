@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PostsListComponent } from './posts-list/posts-list.component';
-import { PostDetailsComponent } from './post-details/post-details.component';
 import { HomeComponent } from './Pages/home/home.component';
+import { PostComponent } from './Pages/post/post.component';
 
 
 const routes: Routes = [
@@ -10,7 +9,7 @@ const routes: Routes = [
     path: '', component: HomeComponent
   },
   {
-    path: 'post/:md', component: PostDetailsComponent
+    path: 'post/:md', component: PostComponent
   },
   {
     path: '**', redirectTo: ''

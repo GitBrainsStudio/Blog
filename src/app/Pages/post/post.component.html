@@ -1,1 +1,11 @@
-<p>post works!</p>
+<div class="wrap">
+    <app-top-menu></app-top-menu>
+    <main class="mb-5">
+        <div class="container">
+            <markdown  [src]="pathToFile" (load)="onLoad()" (error)="onError()"> </markdown>
+        </div>
+    </main>
+</div>
+
+<app-footer></app-footer>
+

@@ -1,11 +1,23 @@
 
-
 <div class="wrap">
     <app-top-menu></app-top-menu>
-    <main>
-        <app-post-reader></app-post-reader>
-    </main>
+    <main class="mb-5">
+        
+        <ng-container *ngIf="postPreviews$ | async as postPreviews">
+            <div class="container"  @opacityAnimation>
+                <h1>Написал</h1>
+                <app-post-preview-list [data]="postPreviews"></app-post-preview-list>
+            </div>
+        </ng-container>
 
+        <ng-container *ngIf="projects$ | async as projects">
+            <div class="container" @opacityAnimation>
+                <h1>Сделал</h1>
+                <app-project-list [data]="projects"></app-project-list>
+            </div>
+        </ng-container>
+
+    </main>
 </div>
 
 <app-footer></app-footer>

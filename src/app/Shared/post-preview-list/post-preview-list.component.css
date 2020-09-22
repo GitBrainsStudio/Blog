@@ -1,8 +1,3 @@
-footer
-{
-    height: var(--footer-height);
-}
-
 ul
 {
     list-style: none;
@@ -14,5 +9,10 @@ li
 {
     padding-bottom: .35rem;
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+.tag
+{
+    background-color: var(--aqua);
 }
