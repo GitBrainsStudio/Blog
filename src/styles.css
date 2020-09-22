@@ -124,3 +124,15 @@ pre
     border-radius: 5px;
     padding: 10px;
 }
+
+.hide
+{
+    opacity: 0;
+    transition: .5s;
+}
+
+.show
+{
+    opacity: 1;
+    transition: 2s;
+}

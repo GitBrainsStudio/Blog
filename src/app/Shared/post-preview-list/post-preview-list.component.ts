@@ -11,7 +11,6 @@ export class PostPreviewListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
   }
 
   @Input() data : PostPreviewHttp[];

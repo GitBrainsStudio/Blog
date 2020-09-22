@@ -16,6 +16,11 @@
                         {
                             "id": "anulgar-cli-install",
                             "name": "Установка Angular Cli"
+                        },
+
+                        {
+                            "id": "angular-material-import",
+                            "name": "Как подключить Angular Material в проект"
                         }
                      ]
         },
@@ -33,12 +38,22 @@
                      ]
         },
         {
-            "tag" : "Шпаргалки по теории",
+            "tag" : "Обязан знать как дважды два",
             "posts": [
                 {
-                    "id": "csharp-dapper-base-repository",
+                    "id": "oop",
                     "name": "ООП в программировании"
                 }
              ]
+        },
+        {
+            "tag" : "Личное",
+            "posts": [
+                {
+                    "id": "refact-blog-event",
+                    "name": "Наконец-то руки дошли до рефакта блога"
+                }
+             ]
         }
+
     ]
