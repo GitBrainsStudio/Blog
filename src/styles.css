@@ -66,6 +66,7 @@ a {
 
 a:hover
 {
+    cursor: pointer;
     color: var(--red);
     transition: .3s;
 }

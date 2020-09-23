@@ -2,7 +2,7 @@
     <span class="badge tag unselectable">{{ p.tag }}</span>
     <ul>
         <li *ngFor="let u of p.posts">
-            <a [routerLink]="['/post', u.id]"  >{{ u.name }}</a>
+            <a (click)="refreshService.redirectTo('/post/' + u.id)" >{{ u.name }}</a>
         </li>
     </ul> 
 </div> 

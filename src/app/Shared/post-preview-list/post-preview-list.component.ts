@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { PostPreviewHttp } from 'src/app/Models/http-models/post-preview.http';
+import { RefreshService } from 'src/app/Services/refresh.service';
 
 @Component({
   selector: 'app-post-preview-list',
@@ -8,11 +9,12 @@ import { PostPreviewHttp } from 'src/app/Models/http-models/post-preview.http';
 })
 export class PostPreviewListComponent implements OnInit {
 
-  constructor() { }
+  constructor(public refreshService : RefreshService) { }
 
   ngOnInit(): void {
   }
 
   @Input() data : PostPreviewHttp[];
+
 
 }
