@@ -137,3 +137,8 @@ pre
     opacity: 1;
     transition: 2s;
 }
+
+img
+{
+    max-width: 90%;
+}

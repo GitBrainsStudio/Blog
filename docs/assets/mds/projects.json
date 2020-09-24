@@ -124,13 +124,13 @@
     {
         "id" : "https://github.com/GitBrainsStudio/Blog",
         "name" : "GitBrains Blog",
-        "description" : "Сайт на котором Вы сейчас находитесь. Старался собрать ракету на рендеринге маркдаун файлов. Вроде получилось.",
+        "description" : "Сайт на котором Вы сейчас находитесь. Рендерю маркдаунов через ngx-markdown.",
         "stack": [
             {
                 "name" : "Angular 9"
             },
             {
-                "name" : "MARKDOWN"
+                "name" : "ngx-markdown"
             }
         ]
     }
