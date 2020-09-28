@@ -1,7 +1,7 @@
 <div class="row" *ngFor="let row of data">
     <div class="col-lg-3 pb-5" *ngFor="let p of row.projects" >
         <div class="project-box">
-            <div class="project-logo">
+            <div class="project-logo mb-2">
                 <img [src]="'assets/images/' + p.logo">
             </div>
             <a [href]="p.id" target="_blank"><h2>{{ p.name }}</h2></a>
