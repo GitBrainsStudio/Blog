@@ -15,3 +15,27 @@ a:hover
 {
     background-color: var(--green-light);
 }
+
+.project-box
+{
+    width: 100%;
+}
+
+.project-box:hover
+{
+    cursor: pointer;
+}
+
+.project-logo
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-logo img
+{
+    border-radius: 5px;
+    min-width: 100%;
+}

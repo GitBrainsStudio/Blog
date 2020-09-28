@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Project } from 'src/app/Models/project';
+import { Project, ProjectRow } from 'src/app/Models/project';
 
 @Component({
   selector: 'app-project-list',
@@ -14,5 +14,11 @@ export class ProjectListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() data : Observable<Project[]>
+
+  @Input() data : Observable<ProjectRow[]>
+
+
 }
+
+
+

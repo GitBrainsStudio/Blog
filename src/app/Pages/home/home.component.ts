@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { PostPreviewHttp } from 'src/app/Models/http-models/post-preview.http';
 import { OpacityAnimation } from 'src/app/Models/opacity-animation';
-import { Project } from 'src/app/Models/project';
+import { Project, ProjectRow } from 'src/app/Models/project';
 import { MdDataService } from 'src/app/Services/md-data.service';
 
 @Component({
@@ -16,10 +16,10 @@ export class HomeComponent implements OnInit {
   constructor(private dataService : MdDataService) { }
 
   ngOnInit(): void {
-    this.projects$ = this.dataService.projects();
+    this.projectRows$ = this.dataService.projectColumns();
     this.postPreviews$ = this.dataService.postPreviews();
   }
 
   postPreviews$ : Observable<PostPreviewHttp[]>
-  projects$ : Observable<Project[]>
+  projectRows$ : Observable<ProjectRow[]>
 }

@@ -5,15 +5,16 @@
         
         <ng-container *ngIf="postPreviews$ | async as postPreviews">
             <div class="container"  @opacityAnimation>
-                <h1 class="mt-5">Написал</h1>
+                <h1 class="mt-5">Блог</h1>
                 <app-post-preview-list [data]="postPreviews"></app-post-preview-list>
             </div>
         </ng-container>
 
-        <ng-container *ngIf="projects$ | async as projects">
+        <ng-container *ngIf="projectRows$ | async as projectRows">
             <div class="container" @opacityAnimation>
-                <h1 class="mt-5">Сделал</h1>
-                <app-project-list [data]="projects"></app-project-list>
+                <h1 class="mt-5">Проекты</h1>
+                <p style="margin:0" class="mb-3">Список последних проектов, над которыми я работал</p>
+                <app-project-list [data]="projectRows"></app-project-list>
             </div>
         </ng-container>
 

@@ -12,7 +12,6 @@ export class RefreshService
     }
 
     public redirectTo(uri:string){
-        console.log(uri)
         this.router.navigateByUrl('/', {skipLocationChange: true}).then(()=>
         this.router.navigate([uri]));
      }
