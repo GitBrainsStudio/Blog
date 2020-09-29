@@ -1,6 +1,20 @@
 [
     {
         "id" : "https://github.com/GitBrainsStudio/5kaParserPrices",
+        "name" : "Викториниус",
+        "logo" : "quiz-portal.png",
+        "description" : "Квиз портал для тестирования знаний в различных областях.",
+        "stack": [
+            {
+                "name" : "Angular"
+            },
+            {
+                "name" : "RxJS"
+            }
+        ]
+    },
+    {
+        "id" : "https://github.com/GitBrainsStudio/5kaParserPrices",
         "name" : "Парсер цен с сайта 5ka.ru",
         "logo" : "5ka-parser.jpg",
         "description" : "Люблю я Selenium, прям обожаю! Но тут без него. Реализация парсера сайта пятёрки для получения актуальных цен.",
@@ -65,16 +79,10 @@
         "id" : "https://github.com/GitBrainsStudio/Angular-Material-Blog",
         "logo" : "blog-api.jpg",
         "name" : "REST-Ful API для блога",
-        "description" : "SPA, в котором все посты находятся на главной странице. Используется материал дизайн.",
+        "description" : "Бэкенд сервис для блога на NET.Core",
         "stack": [
             {
-                "name" : "Angular 9"
-            },
-            {
-                "name" : "Angular Material"
-            },
-            {
-                "name" : "NET.CORE"
+                "name" : "NET.Core"
             }
         ]
     },
